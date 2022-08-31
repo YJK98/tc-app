@@ -120,8 +120,8 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>Made with 💖, 
-        <div className={styles.tooltip}>YJK
-          <span className={styles.tooltiptext}>Y. JASWANTH KUMAR</span>
+        <div className="tooltip">YJK
+          <span className="tooltiptext">Y. JASWANTH KUMAR</span>
         </div>
       </footer>
     </div>
