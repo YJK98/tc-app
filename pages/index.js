@@ -119,7 +119,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>Made with 💖, 
+      <footer className={styles.footer}>Crafted with 💖, 
         <div className="tooltip">YJK
           <span className="tooltiptext">Y. JASWANTH KUMAR</span>
         </div>
