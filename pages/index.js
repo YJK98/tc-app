@@ -78,6 +78,17 @@ export default function Home() {
             <p>700 ⁰C: {TtomVWithRef('n', refT, 700)} mV</p>
             <p>1300 ⁰C: {TtomVWithRef('n', refT, 1300)} mV</p>
           </div>
+          <div className={styles.card}>
+            <h2><Input className={styles.inputN} step="0.1" type="number" value={TCC} onChange={e => setTCC(e.target.value)} />⁰C (ref T) &rarr;</h2>
+            <p><b>B: </b> {TtomVWithRef('b', refT, Number(TCC))} mV</p>
+            <p><b>E: </b> {TtomVWithRef('e', refT, Number(TCC))} mV</p>
+            <p><b>J: </b> {TtomVWithRef('j', refT, Number(TCC))} mV</p>
+            <p><b>K: </b> {TtomVWithRef('k', refT, Number(TCC))} mV</p>
+            <p><b>N: </b> {TtomVWithRef('n', refT, Number(TCC))} mV</p>
+            <p><b>R: </b> {TtomVWithRef('r', refT, Number(TCC))} mV</p>
+            <p><b>S: </b> {TtomVWithRef('s', refT, Number(TCC))} mV</p>
+            <p><b>T: </b> {TtomVWithRef('t', refT, Number(TCC))} mV</p>
+          </div>
         </div>
 
         <div className={styles.grid}>
