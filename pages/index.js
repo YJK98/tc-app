@@ -79,7 +79,7 @@ export default function Home() {
             <p>1300 ℃: {TtomVWithRef('n', refT, 1300)} mV</p>
           </div>
           <div className={styles.card}>
-            <h2>Fluke True RMS MM</h2>
+            <h2>Fluke True RMS MM 🤝</h2>
             <div style={{ background: '#F2F4F6', color: '#232323' }}><b>K</b></div>
             <p>50 ℃: {TtomVWithRef('k', refT, 50)} mV</p>
             <p>350 ℃: {TtomVWithRef('k', refT, 350)} mV</p>
