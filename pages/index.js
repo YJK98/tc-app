@@ -56,6 +56,12 @@ export default function Home() {
             <p>600 ℃: {TtomVWithRef('j', refT, 600)} mV</p>
             <p>1200 ℃: {TtomVWithRef('j', refT, 1200)} mV</p>
 
+            <div style={{ background: '#F2F4F6', color: '#232323' }}><b>K</b></div>
+            <p>-200 ℃: {TtomVWithRef('k', refT, -200)} mV</p>
+            <p>5 ℃: {TtomVWithRef('k', refT, 5)} mV</p>
+            <p>600 ℃: {TtomVWithRef('k', refT, 600)} mV</p>
+            <p>1200 ℃: {TtomVWithRef('k', refT, 1350)} mV</p>
+
             <div style={{ background: '#F2F4F6', color: '#232323' }}><b>N</b></div>
             <p>-200 ℃: {TtomVWithRef('n', refT, -200)} mV</p>
             <p>5 ℃: {TtomVWithRef('n', refT, 5)} mV</p>
