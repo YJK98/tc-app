@@ -126,6 +126,50 @@ export default function Home() {
             <p>700 ℃: {TtomVWithRef('n', refT, 700)} mV</p>
             <p>1300 ℃: {TtomVWithRef('n', refT, 1300)} mV</p>
           </div>
+
+          <div className={styles.card}>
+            <h2>YOKOGAWA 🤝</h2>
+            <div style={{ background: '#F2F4F6', color: '#232323' }}><b>K</b></div>
+            <p>-190 ℃: {TtomVWithRef('k', refT, -190)} mV</p>
+            <p>700 ℃: {TtomVWithRef('k', refT, 700)} mV</p>
+            <p>1300 ℃: {TtomVWithRef('k', refT, 1300)} mV</p>
+
+            <div style={{ background: '#F2F4F6', color: '#232323' }}><b>E</b></div>
+            <p>-190 ℃: {TtomVWithRef('e', refT, -190)} mV</p>
+            <p>500 ℃: {TtomVWithRef('e', refT, 500)} mV</p>
+            <p>950 ℃: {TtomVWithRef('e', refT, 950)} mV</p>
+
+            <div style={{ background: '#F2F4F6', color: '#232323' }}><b>J</b></div>
+            <p>-190 ℃: {TtomVWithRef('j', refT, -190)} mV</p>
+            <p>600 ℃: {TtomVWithRef('j', refT, 600)} mV</p>
+            <p>1150 ℃: {TtomVWithRef('j', refT, 1150)} mV</p>
+
+            <div style={{ background: '#F2F4F6', color: '#232323' }}><b>T</b></div>
+            <p>-190 ℃: {TtomVWithRef('t', refT, -190)} mV</p>
+            <p>100 ℃: {TtomVWithRef('t', refT, 100)} mV</p>
+            <p>350 ℃: {TtomVWithRef('t', refT, 350)} mV</p>
+
+            <div style={{ background: '#F2F4F6', color: '#232323' }}><b>N</b></div>
+            <p>-190 ℃: {TtomVWithRef('n', refT, -190)} mV</p>
+            <p>700 ℃: {TtomVWithRef('n', refT, 700)} mV</p>
+            <p>1250 ℃: {TtomVWithRef('n', refT, 1250)} mV</p>
+
+            <div style={{ background: '#F2F4F6', color: '#232323' }}><b>R</b></div>
+            <p>50 ℃: {TtomVWithRef('r', refT, 50)} mV</p>
+            <p>900 ℃: {TtomVWithRef('r', refT, 900)} mV</p>
+            <p>1700 ℃: {TtomVWithRef('r', refT, 1700)} mV</p>
+
+            <div style={{ background: '#F2F4F6', color: '#232323' }}><b>S</b></div>
+            <p>50 ℃: {TtomVWithRef('s', refT, 50)} mV</p>
+            <p>900 ℃: {TtomVWithRef('s', refT, 900)} mV</p>
+            <p>1700 ℃: {TtomVWithRef('s', refT, 1700)} mV</p>
+
+            <div style={{ background: '#F2F4F6', color: '#232323' }}><b>B</b></div>
+            <p>650 ℃: {TtomVWithRef('b', refT, 650)} mV</p>
+            <p>900 ℃: {TtomVWithRef('b', refT, 900)} mV</p>
+            <p>1750 ℃: {TtomVWithRef('b', refT, 1750)} mV</p>
+          </div>
+
           <div className={styles.card}>
             <h2>Fluke True RMS MM 🤝</h2>
             <div style={{ background: '#F2F4F6', color: '#232323' }}><b>K</b></div>
