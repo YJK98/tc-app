@@ -46,41 +46,41 @@ export default function Home() {
 
             <div style={{ background: '#F2F4F6', color: '#232323' }}><b>E</b></div>
             <p>-200 ℃: {TtomVWithRef('e', refT, -200)} mV</p>
-            <p>5 ℃: {TtomVWithRef('e', refT, 5)} mV</p>
+            <p>50 ℃: {TtomVWithRef('e', refT, 50)} mV</p>
             <p>500 ℃: {TtomVWithRef('e', refT, 500)} mV</p>
             <p>1000 ℃: {TtomVWithRef('e', refT, 1000)} mV</p>
 
             <div style={{ background: '#F2F4F6', color: '#232323' }}><b>J</b></div>
             <p>-200 ℃: {TtomVWithRef('j', refT, -200)} mV</p>
-            <p>5 ℃: {TtomVWithRef('j', refT, 5)} mV</p>
+            <p>50 ℃: {TtomVWithRef('j', refT, 50)} mV</p>
             <p>600 ℃: {TtomVWithRef('j', refT, 600)} mV</p>
             <p>1200 ℃: {TtomVWithRef('j', refT, 1200)} mV</p>
 
             <div style={{ background: '#F2F4F6', color: '#232323' }}><b>K</b></div>
             <p>-200 ℃: {TtomVWithRef('k', refT, -200)} mV</p>
-            <p>5 ℃: {TtomVWithRef('k', refT, 5)} mV</p>
-            <p>600 ℃: {TtomVWithRef('k', refT, 600)} mV</p>
+            <p>50 ℃: {TtomVWithRef('k', refT, 50)} mV</p>
+            <p>700 ℃: {TtomVWithRef('k', refT, 700)} mV</p>
             <p>1200 ℃: {TtomVWithRef('k', refT, 1350)} mV</p>
 
             <div style={{ background: '#F2F4F6', color: '#232323' }}><b>N</b></div>
             <p>-200 ℃: {TtomVWithRef('n', refT, -200)} mV</p>
-            <p>5 ℃: {TtomVWithRef('n', refT, 5)} mV</p>
+            <p>50 ℃: {TtomVWithRef('n', refT, 50)} mV</p>
             <p>600 ℃: {TtomVWithRef('n', refT, 600)} mV</p>
-            <p>1300 ℃: {TtomVWithRef('n', refT, 1300)} mV</p>
+            <p>1250 ℃: {TtomVWithRef('n', refT, 1250)} mV</p>
 
             <div style={{ background: '#F2F4F6', color: '#232323' }}><b>R</b></div>
-            <p>20 ℃: {TtomVWithRef('r', refT, 20)} mV</p>
-            <p>900 ℃: {TtomVWithRef('r', refT, 900)} mV</p>
-            <p>1750 ℃: {TtomVWithRef('r', refT, 1750)} mV</p>
+            <p>50 ℃: {TtomVWithRef('r', refT, 50)} mV</p>
+            <p>800 ℃: {TtomVWithRef('r', refT, 800)} mV</p>
+            <p>1700 ℃: {TtomVWithRef('r', refT, 1700)} mV</p>
 
             <div style={{ background: '#F2F4F6', color: '#232323' }}><b>S</b></div>
-            <p>20 ℃: {TtomVWithRef('s', refT, 20)} mV</p>
-            <p>900 ℃: {TtomVWithRef('s', refT, 900)} mV</p>
-            <p>1750 ℃: {TtomVWithRef('s', refT, 1750)} mV</p>
+            <p>50 ℃: {TtomVWithRef('s', refT, 50)} mV</p>
+            <p>800 ℃: {TtomVWithRef('s', refT, 800)} mV</p>
+            <p>1700 ℃: {TtomVWithRef('s', refT, 1700)} mV</p>
 
             <div style={{ background: '#F2F4F6', color: '#232323' }}><b>T</b></div>
             <p>-200 ℃: {TtomVWithRef('t', refT, -200)} mV</p>
-            <p>5 ℃: {TtomVWithRef('t', refT, 5)} mV</p>
+            <p>50 ℃: {TtomVWithRef('t', refT, 50)} mV</p>
             <p>200 ℃: {TtomVWithRef('t', refT, 200)} mV</p>
             <p>400 ℃: {TtomVWithRef('t', refT, 400)} mV</p>
           </div>
