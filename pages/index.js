@@ -197,14 +197,14 @@ export default function Home() {
           
           <div className={styles.card}>
             <h2><Input className={styles.inputN} type="number" value={TCmV} onChange={e => setTCmV(e.target.value)} />mV &rarr;</h2>
-            <p><b>B: </b> {mVtoTWithRef('b', Number(TCmV))} ℃</p>
-            <p><b>E: </b> {mVtoTWithRef('e', Number(TCmV))} ℃</p>
-            <p><b>J: </b> {mVtoTWithRef('j', Number(TCmV))} ℃</p>
-            <p><b>K: </b> {mVtoTWithRef('k', Number(TCmV))} ℃</p>
-            <p><b>N: </b> {mVtoTWithRef('n', Number(TCmV))} ℃</p>
-            <p><b>R: </b> {mVtoTWithRef('r', Number(TCmV))} ℃</p>
-            <p><b>S: </b> {mVtoTWithRef('s', Number(TCmV))} ℃</p>
-            <p><b>T: </b> {mVtoTWithRef('t', Number(TCmV))} ℃</p>
+            <p><b>B: </b> {mVtoTWithRef('b', refT, Number(TCmV))} ℃</p>
+            <p><b>E: </b> {mVtoTWithRef('e', refT, Number(TCmV))} ℃</p>
+            <p><b>J: </b> {mVtoTWithRef('j', refT, Number(TCmV))} ℃</p>
+            <p><b>K: </b> {mVtoTWithRef('k', refT, Number(TCmV))} ℃</p>
+            <p><b>N: </b> {mVtoTWithRef('n', refT, Number(TCmV))} ℃</p>
+            <p><b>R: </b> {mVtoTWithRef('r', refT, Number(TCmV))} ℃</p>
+            <p><b>S: </b> {mVtoTWithRef('s', refT, Number(TCmV))} ℃</p>
+            <p><b>T: </b> {mVtoTWithRef('t', refT, Number(TCmV))} ℃</p>
           </div>
           
           <div className={styles.card}>
