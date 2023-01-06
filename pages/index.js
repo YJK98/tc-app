@@ -10,6 +10,10 @@ const TtomVWithRef = (TCtype, refT, reqT) => {
   return Thermocouple.tempToMillivolts(TCtype, reqT) - Thermocouple.tempToMillivolts(TCtype, refT)
 }
 
+const mVtoTWithRef = (TCtype, refT, mV) => {
+  return Thermocouple.millivoltsToTemp(TCtype, mV) + refT
+}
+
 export default function Home() {
   const [TCmV, setTCmV] = useState(0.01)
   const [TCC, setTCC] = useState(25)
@@ -190,6 +194,19 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
+          
+          <div className={styles.card}>
+            <h2><Input className={styles.inputN} type="number" value={TCmV} onChange={e => setTCmV(e.target.value)} />mV &rarr;</h2>
+            <p><b>B: </b> {mVtoTWithRef('b', Number(TCmV))} ℃</p>
+            <p><b>E: </b> {mVtoTWithRef('e', Number(TCmV))} ℃</p>
+            <p><b>J: </b> {mVtoTWithRef('j', Number(TCmV))} ℃</p>
+            <p><b>K: </b> {mVtoTWithRef('k', Number(TCmV))} ℃</p>
+            <p><b>N: </b> {mVtoTWithRef('n', Number(TCmV))} ℃</p>
+            <p><b>R: </b> {mVtoTWithRef('r', Number(TCmV))} ℃</p>
+            <p><b>S: </b> {mVtoTWithRef('s', Number(TCmV))} ℃</p>
+            <p><b>T: </b> {mVtoTWithRef('t', Number(TCmV))} ℃</p>
+          </div>
+          
           <div className={styles.card}>
             <h2><Input className={styles.inputN} type="number" value={TCmV} onChange={e => setTCmV(e.target.value)} />mV &rarr;</h2>
             <p><b>B: </b> {Thermocouple.millivoltsToTemp('b', Number(TCmV))} ℃</p>
