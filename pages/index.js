@@ -11,7 +11,7 @@ const TtomVWithRef = (TCtype, refT, reqT) => {
 }
 
 const mVtoTWithRef = (TCtype, refT, mV) => {
-  return Thermocouple.millivoltsToTemp(TCtype, mV) + refT
+  return Thermocouple.millivoltsToTemp(TCtype, mV) + Number(refT)
 }
 
 export default function Home() {
